@@ -43,4 +43,3 @@ Temporary Items
 .bzrignore
 .idea/
 src/Gopkg.lock
-src/vendor
