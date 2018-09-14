@@ -126,3 +126,8 @@ curl 127.0.0.1:443
 ## 注意事项
 1. 注意挂载的目录，比如这里的cert文件夹下的文件，使用命令挂载为`-v /data/nginx/conf:/etc/nginx`，又因为cert在conf目录下，所以在nginx配置文件中要写`/etc/nginx/cert/*****.pem`。而logs文件夹是挂载`-v /data/nginx/logs:/data/nginx/logs`，所以nginx配置中只需要写`/data/nginx/logs/`就好
 2. 如果https不能访问，检查证书以及检查nginx是否支持ssl
+3. 当前nginx版本 
+```bash
+root@7aef57c925c0:/# nginx -v
+nginx version: nginx/1.15.3
+```
