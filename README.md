@@ -1,6 +1,8 @@
 ## 个人主页
 > 我的个人主页,
 
+[使用nginx容器版本](https://github.com/itstudying/introduce/tree/nginx)
+
  [点击这里预览](http://itstudying.com)
 
 ### 快速开始
