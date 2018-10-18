@@ -5,7 +5,7 @@
 
 docker nginx容器运行服务
 
- [点击这里预览](http://itstudying.com)
+ [点击这里预览](https://itstudying.com)
 
 ## 步骤
 ### 拉取nginx镜像，默认最新
@@ -84,7 +84,7 @@ http {
 
      server {
 	listen 80;
-	listen 443 ssl;
+	listen 443 ssl http2;
    	server_name itstudying.com;
     	#root html;
     	#index index.html index.htm;
